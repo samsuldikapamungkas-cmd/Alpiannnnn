@@ -1,20 +1,24 @@
 body {
-  background-color: #FFFF0 ; /* Warna kuning cerah */
-font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah
-color: #191970; /* Warna teks utama (Biru Gelap) */
-}
+  /* background-color: #FFFF0;  Kode hex harus 6 digit */
+  background-color: #FFFF00; /* Warna kuning cerah (Sudah diperbaiki ke 6 digit) */
+  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+  color: #191970; /* Warna teks utama (Biru Gelap) */
+} /* Tutup kurung kurawal yang hilang */
 
 .kartu-profil {
   width: 300px;
-  margin: 50px auto; 50px jarak atas/bawah, auto menengahkan kiri
+  /* margin: 50px auto; 50px jarak atas/bawah, auto menengahkan kiri - KOMEN PERLU DIHAPUS/DIPINDAH */
+  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
   padding: 20px;
   background-color: white;
   border-radius: 15px; /* Membuat sudut menjadi melengkung */
-box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan */
-teks-align: center; /* Menengahkan semua teks di dalam kartu
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  /* teks-align: center; Properti yang salah ketik */
+  text-align: center; /* Menengahkan semua konten/teks di dalam kartu */
 }
 
 .kartu-profil img {
   width: 150px;
-  border-radius: 50%
-}
+  /* border-radius: 50% - Titik koma hilang */
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+} /* Tutup kurung kurawal yang hilang */
